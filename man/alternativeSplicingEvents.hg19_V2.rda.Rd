@@ -1,5 +1,5 @@
-\name{alternativeSplicingEvents.hg19.rda}
-\alias{alternativeSplicingEvents.hg19.rda}
+\name{alternativeSplicingEvents.hg19_V2.rda}
+\alias{alternativeSplicingEvents.hg19_V2.rda}
 \docType{data}
 \title{
 Alternative splicing event annotation for Human (hg19)
@@ -25,9 +25,9 @@ Alternative splicing events were compiled from the input annotation files used
 by the splicing quantification tools MISO, VAST-TOOLS, SUPPA and rMATS (see
 details).
 }
-%\usage{data("data/alternativeSplicingEvents.hg19.RDS")}
+%\usage{data("data/alternativeSplicingEvents.hg19_V2.RDS")}
 \format{
-%  The format is: chr "data/alternativeSplicingEvents.hg19.RDS"
+%  The format is: chr "data/alternativeSplicingEvents.hg19_V2.RDS"
 }
 \details{
 The compiled annotation of human alternative splicing events was based on
@@ -102,6 +102,6 @@ library(AnnotationHub)
 hub <- AnnotationHub()
 
 ## Load the alternative splicing events for Human (hg19)
-events <- query(hub, "alternativeSplicingEvents.hg19")[[1]]
+events <- query(hub, "alternativeSplicingEvents.hg19_V2")[[1]]
 }
 \keyword{datasets}
