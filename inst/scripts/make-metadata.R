@@ -6,7 +6,7 @@ metadata <- data.frame(
                       "junctions coordinates relevant to the type of event and",
                       "associated gene."),
     Species="Homo sapiens",
-    RDataPath="alternativeSplicingEvents.hg19/data/alternativeSplicingEvents.hg19_V2.rda",
+    RDataPath="alternativeSplicingEvents.hg19/alternativeSplicingEvents.hg19_V2.rda",
     TaxonomyId=9606,
     Genome="hg19",
     Maintainer="Nuno Agostinho <nunodanielagostinho@gmail.com>",
