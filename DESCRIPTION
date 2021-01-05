@@ -15,5 +15,6 @@ Suggests:
     dplyr,
     GenomicRanges,
     S4Vectors
+biocViews: AnnotationHub
 URL: https://github.com/nuno-agostinho/alternativeSplicingEvents.hg19
 BugReports: https://github.com/nuno-agostinho/alternativeSplicingEvents.hg19/issues
